@@ -9,6 +9,7 @@
 		<title>Andre Elandra</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" href="images/AE.png">
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
@@ -69,40 +70,51 @@
 
 				<!-- Three -->
 					<section id="three">
-						<h2>My Contact</h2>
-						<p>If you have any interest or feedback, feel free to contact me.</p>
-						 <div class="row">
-							<div class="col-8 col-12-small">
-								<!-- <form class="contact-form" action="contactform.php" method="post">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+						<div id="contact">
+							<h2>Get in Touch</h2>
+							<p>If you have any interest or feedback, feel free to contact me.</p>
+							<div id="contact-form">
+								<div class="row">
+
+									<div class="col-8 col-12-small">
+										<form
+										  action="https://formspree.io/f/myybkwgb"
+										  method="POST">
+											<div class="row gtr-uniform gtr-50">
+										    <div class="col-12 col-12-xsmall"><input type="email" name="_replyto" placeholder="Your email" required></div>
+												<input type="hidden" name="_subject" value="Contact request from portfolio website" />
+										    <div class="col-12"><textarea name="message" placeholder="Your message" required></textarea></div>
+											</div>
+											<br><br/>
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" /></li>
+											</ul>
+										</form>
 									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" name="submit" value="Send Message" /></li>
-								</ul>
-							</div> -->
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="mailto: andreelandra@gmail.com" target="_blank">andreelandra@gmail.com</a>
-									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										<a href="Tel: +6285156239769" target="_blank">+62 851-5623-9769</a>
-									</li>
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										Alam Sutera<br />
-										Tangerang Selatan<br />
-										Indonesia
-									</li>
-								</ul>
+
+									<div class="col-4 col-12-small">
+										<ul class="labeled-icons">
+											<li>
+												<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+												<a href="mailto: andreelandra@gmail.com" target="_blank">andreelandra@gmail.com</a>
+											</li>
+											<li>
+												<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+												<a href="Tel: +6285156239769" target="_blank">+62 851-5623-9769</a>
+											</li>
+											<li>
+												<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+												Alam Sutera<br />
+												Tangerang Selatan<br />
+												Indonesia
+											</li>
+										</ul>
+									</div>
+
+								</div>
 							</div>
-						</div>
+    				</div>
+
 					</section>
 
 				<!-- Four -->
